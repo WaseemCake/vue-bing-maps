@@ -1,4 +1,6 @@
-Many Thanks to Kenneth Sullivan !!
+Many Thanks to Kenneth Sullivan !! https://github.com/ksullivan1856/vue-bing-maps 
+
+Additional changes were made as per the requirements
 
 vue-bing-maps
 
