@@ -58,6 +58,7 @@
                         pageX: event.pageX,
                         pageY: event.pageY,
                         point: event.point,
+                        zoomLevel: typeof(event.target.getZoom) === 'function' ? event.target.getZoom() : null,
                         location: event.location,
                         targetType: event.targetType
                     };
