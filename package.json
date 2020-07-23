@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksullivan1856/vue-bing-maps.git"
+    "url": "git+https://github.com/WaseemCake/vue-bing-maps.git"
   },
   "keywords": [
     "vue",
@@ -22,9 +22,9 @@
   "author": "Kenneth Sullivan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ksullivan1856/vue-bing-maps/issues"
+    "url": "https://github.com/WaseemCake/vue-bing-maps/issues"
   },
-  "homepage": "https://github.com/ksullivan1856/vue-bing-maps#readme",
+  "homepage": "https://github.com/WaseemCake/vue-bing-maps#readme",
   "files": [
     "src",
     "dist"
