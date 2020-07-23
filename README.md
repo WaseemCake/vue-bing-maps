@@ -1,3 +1,5 @@
+Many Thanks to Kenneth Sullivan !!
+
 vue-bing-maps
 
 vue-bing-maps
