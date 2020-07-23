@@ -1,6 +1,6 @@
 <template>
     <div ref="mapContainer">
-        <div style="display: none;">
+        <div>
             <slot v-if="initialized"></slot>
         </div>
     </div>
@@ -194,6 +194,7 @@
                             self.initialized = true;
                         });
 
+                        self.registerEvents();
                         resolve();
                     }).catch(function(err){
                         reject(err);
