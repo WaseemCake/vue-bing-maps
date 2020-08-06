@@ -85,7 +85,7 @@
 
                 if(map){
                     if(infobox){
-                        this.destroy();
+                        //this.destroy();
                     }
 
                     let options = this.convertOptions();
