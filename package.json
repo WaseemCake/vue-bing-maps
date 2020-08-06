@@ -1,6 +1,6 @@
 {
   "name": "@WaseemCake/vue-bing-maps",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Vue wrapper for Bing Maps v8",
   "main": "./dist/index.js",
   "scripts": {
