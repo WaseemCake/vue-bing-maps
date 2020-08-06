@@ -100,6 +100,7 @@
                     infobox = this.setItem(new Microsoft.Maps.Infobox(location, options));
                     this.setCustomHtml();
                     infobox.setMap(map);
+                    this.registerEvents();
                 } else {
                     Utils.logger.error('infobox render error: map not found!');
                 }

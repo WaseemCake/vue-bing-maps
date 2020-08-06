@@ -51,7 +51,7 @@
                     Promise.all([self.loadModule(name), self.$nextTick()]).then(() => {
                         let options = {
                             visible:self.visible,
-                            maxResults: 4,
+                            maxResults: self.options.maxResults || 4,
                             map: map,
                         };
                         search = self.setItem(new Microsoft.Maps.AutosuggestManager(options));
