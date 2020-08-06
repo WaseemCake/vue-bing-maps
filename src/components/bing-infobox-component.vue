@@ -49,7 +49,7 @@
                 return !!(this.$slots && this.$slots.default && this.$slots.default.length);
             },
             convertOptions(value){
-                let options = (value ? Utils.deepClone(value) : Utils.deepClone(this.options)) || {};
+                let options = (value ? Utils.deepClone(value) : this.options) || {};
 
                 for(var prop in options){
                     if(options.hasOwnProperty(prop)){
